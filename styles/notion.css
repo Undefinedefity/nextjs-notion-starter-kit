@@ -22,7 +22,7 @@
 }
 
 .index-page {
-  --notion-max-width: 900px;
+  --notion-max-width: 1080px;
 }
 
 .notion-text {
@@ -140,7 +140,7 @@
   margin: 2em 0;
 }
 
-@media only screen and (max-width: 920px) {
+@media only screen and (max-width: 1080px) {
   .index-page.notion-page {
     padding-left: 2vw;
     padding-right: 2vw;
