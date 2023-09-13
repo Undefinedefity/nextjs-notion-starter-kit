@@ -11,17 +11,17 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Daifeng Li Personal Site',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
+  domain: 'daifeng.site',
   author: 'Daifeng Li',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Daifeng Li Personal Site',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
   github: 'Undefinedefity', // https://github.com/Undefinedefity
-  bilibili: 'Def李', // https://space.bilibili.com/85452198
-  zhihu: '李Def', // https://www.zhihu.com/people/li-dai-feng-38
+  bilibili: '85452198', // https://space.bilibili.com/85452198
+  zhihu: 'li-dai-feng-38', // https://www.zhihu.com/people/li-dai-feng-38
   // linkedin: 'fisch2',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
