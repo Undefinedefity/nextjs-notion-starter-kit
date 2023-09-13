@@ -53,16 +53,20 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  // navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: '中文',
+      pageId: '2f5adcca64b041908c04953e7b448c1e'
+    },
+    {
+      title: 'English',
+      pageId: '444c57f6e6fe42f9bf47b5cb91fecf93'
+    },
+    {
+      title: '项目',
+      pageId: '11874b6176444dbca2492e350bbaff72'
+    }
+  ]
 })
