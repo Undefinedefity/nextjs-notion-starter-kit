@@ -56,17 +56,21 @@ export default siteConfig({
   // navigationStyle: 'default'
   navigationStyle: 'custom',
   navigationLinks: [
+    // {
+    //   title: '中文',
+    //   pageId: '2f5adcca64b041908c04953e7b448c1e'
+    // },
+    // {
+    //   title: 'English',
+    //   pageId: '444c57f6e6fe42f9bf47b5cb91fecf93'
+    // },
+    // {
+    //   title: '项目',
+    //   pageId: '11874b6176444dbca2492e350bbaff72'
+    // }，
     {
-      title: '中文',
-      pageId: '2f5adcca64b041908c04953e7b448c1e'
-    },
-    {
-      title: 'English',
-      pageId: '444c57f6e6fe42f9bf47b5cb91fecf93'
-    },
-    {
-      title: '项目',
-      pageId: '11874b6176444dbca2492e350bbaff72'
+      title: '个人简历',
+      pageId: '702fb15e3815418889ccb654404c6381'
     }
   ]
 })
