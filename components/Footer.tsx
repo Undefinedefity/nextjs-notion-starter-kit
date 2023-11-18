@@ -7,6 +7,8 @@ import { FaMastodon } from '@react-icons/all-files/fa/FaMastodon'
 import { FaTwitter } from '@react-icons/all-files/fa/FaTwitter'
 import { FaYoutube } from '@react-icons/all-files/fa/FaYoutube'
 import { FaZhihu } from '@react-icons/all-files/fa/FaZhihu'
+import { FaVideo  } from '@react-icons/all-files/fa/FaVideo'
+// import { FaBilibili } from "@react-icons/all-files/"
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
 
@@ -84,6 +86,18 @@ export const FooterImpl: React.FC = () => {
             rel='noopener noreferrer'
           >
             <FaZhihu />
+          </a>
+        )}
+
+        {config.bilibili && (
+          <a
+            className={styles.bilibili}
+            href={`https://space.bilibili.com/${config.bilibili}`}
+            title={`BiliBili @${config.bilibili}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <FaVideo />
           </a>
         )}
 

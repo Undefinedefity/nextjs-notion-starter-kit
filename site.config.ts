@@ -22,10 +22,10 @@ export default siteConfig({
   github: 'Undefinedefity', // https://github.com/Undefinedefity
   bilibili: '85452198', // https://space.bilibili.com/85452198
   zhihu: 'li-dai-feng-38', // https://www.zhihu.com/people/li-dai-feng-38
+  // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
   // linkedin: 'fisch2',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
-  // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
